@@ -1,6 +1,6 @@
 # zinj
 
-** Features : **
+**Features :**
 
 - Help you track all expenses and incomes quickly
 - Able to set the monthly budget optionally
@@ -16,13 +16,13 @@
 - Show statistics (max, min, average)
 
 
-** Categories **
+**Categories**
 
 - Editable expense and income categories
 - For each categories you can also set the monthly budget (expense), and monthly target (income)
 
 
-** Account **
+**Account**
 
 - Support multiple account : Cash, Bank, and Credit Card
 - Show account information and current balance
@@ -33,12 +33,12 @@
 - Credit Card Payment 
 - Set Financial Goal
 
-** Financial Goal **
+**Financial Goal**
 
 - Set account for specific goal e.g: emergency fund, investment, business profit, vacation, wedding, and etc.
 
 
-** Chart **
+**Chart**
 
 - Cash Flow
 - Income
@@ -51,7 +51,7 @@
 - Financial Goal
 
 
-** Export **
+**Export**
 
 - Easy to Backup and Restore Data 
 - Share to E-Mail, Notes, etc.
