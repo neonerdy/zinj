@@ -1,0 +1,40 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+        android:gravity="center"
+
+	    android:orientation="vertical" >
+
+
+	    	<TextView
+	            android:id="@+id/lblLoginTitle"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textSize="70dp"
+                android:text="zinj"
+                android:layout_marginTop="70dp"
+                android:textColor="#4682b4" />
+
+	 	   <EditText
+		        android:id="@+id/txtLoginPassword"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:ems="10"
+                android:inputType="textPassword|number"
+                android:password="true"
+                android:gravity="center"
+                android:maxLength="4"
+                android:hint="Password"
+      	        />
+
+
+
+            </LinearLayout>
+
+
+</ScrollView>
+

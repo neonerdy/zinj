@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   <item android:id="@+id/menuitem_sortby_category"
+   		android:title="Sort By Category"
+	    android:showAsAction="ifRoom">
+    </item>
+
+    <item android:id="@+id/menuitem_sortby_amount"
+          android:title="Sort By Amount"
+          android:showAsAction="ifRoom">
+    </item>
+
+</menu>

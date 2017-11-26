@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    
+        <LinearLayout
+             android:layout_width="40dip"
+             android:layout_height="fill_parent"
+             android:layout_weight="0.20"
+         
+             android:orientation="vertical" >
+           
+              <TextView
+                  android:id="@+id/lblTransactionDay"
+                  android:layout_width="40dip"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="5dip"
+                  android:gravity="center_horizontal"
+                  android:text="17"
+                  android:textColor="#4682b4"
+                  android:textSize="18dip" />
+              
+              <TextView
+                  android:id="@+id/lblTransactionMonth"
+                  android:layout_width="41dip"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="5dip"
+                  android:gravity="center_horizontal"
+                  android:text="MAR"
+                  android:textColor="#4682b4"
+                  android:textSize="18dip" />
+     		
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="2.47"
+            android:orientation="vertical" >
+        
+	        <TextView
+	            android:id="@+id/lblTransactionDescription"
+	            android:layout_width="198dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="5dip"
+	            android:gravity="top"
+	            android:text="Income from Salary"
+	            android:textSize="17dip" />
+	         
+	        <TextView
+	            android:id="@+id/lblTransactionNotes"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="bottom" 
+	            android:textSize="13dip"
+	              android:layout_marginLeft="5dip"
+	            android:text="Notes" />
+	         
+	        
+	         <TextView
+	            android:id="@+id/lblTransactionType"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="bottom" 
+	            android:textSize="12dip"
+	              android:layout_marginLeft="5dip"
+	            android:text="INCOME" />
+	         
+	         
+	           
+         </LinearLayout>
+          
+         <LinearLayout
+             android:layout_width="0dip"
+             android:layout_height="fill_parent"
+             android:layout_weight="1.07"
+             android:orientation="vertical" >
+        
+            <TextView
+	            android:id="@+id/lblTransactionAmount"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_horizontal|right"
+	            android:text="$500"
+	            android:textSize="16dip"
+	         	android:textColor="#006400"
+	            android:layout_marginRight="8dip" 
+	            />
+                
+	        <TextView
+	            android:id="@+id/lblTransactionId"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center_horizontal|right"
+	            android:text="ID"
+	            android:visibility="invisible"
+	            android:layout_marginRight="4dip" 
+	            />
+        
+	        </LinearLayout>
+           
+        
+    </LinearLayout>

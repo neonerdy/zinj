@@ -1,0 +1,93 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+	    
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical" >
+	
+	    <EditText
+	        android:id="@+id/txtCategoryName"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:hint="Category Name" />
+	    
+	      <RadioGroup
+	        android:id="@+id/rbCategoryType"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+
+          <RadioButton
+              android:id="@+id/rbExpense"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:checked="true"
+              android:onClick="onRadioButtonClick"
+              android:text="Expense" />
+
+
+          <RadioButton
+                android:id="@+id/rbIncome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClick"
+                android:text="Income" />
+
+	   	 </RadioGroup>
+	      
+	        <TextView
+		        android:id="@+id/lblGroupBudget"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginTop="10dp"
+		        android:textColor="#4682b4"
+		        android:text="GROUP" />
+	              
+	      <Spinner
+	          android:id="@+id/cboGroup"
+	          android:layout_width="match_parent"
+	          android:prompt="@string/select_group" 
+	          android:layout_height="wrap_content" />
+	
+	        <TextView
+		        android:id="@+id/lblMonthlyBudget"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginTop="10dp"
+		        android:textColor="#4682b4"
+		        android:text="MONTHLY BUDGET" />
+		        
+	        <CheckBox
+		          android:id="@+id/chkIsBudgeted"
+		          android:layout_width="wrap_content"
+		          android:layout_height="wrap_content"
+		          android:onClick="onChkBudgetedClick"
+		          android:text="Is Budgeted" />
+		      
+		      <EditText
+			        android:id="@+id/txtCategoryBudget"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:ems="10"
+			        android:enabled="false"
+			        android:inputType="numberDecimal"
+			        android:hint="Budget" />
+
+
+        <CheckBox
+                android:id="@+id/chkIsActive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Is Active" />
+	
+	            
+	</LinearLayout>
+
+</ScrollView>

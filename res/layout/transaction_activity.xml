@@ -1,0 +1,154 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical" >
+	      
+	    <EditText
+	       android:id="@+id/txtTransactionAmount"
+	       android:layout_width="match_parent"
+	       android:layout_height="wrap_content"
+	       android:ems="10"
+	       android:inputType="numberDecimal"
+	       android:hint="Amount" />
+	    
+	    <RadioGroup
+	        android:id="@+id/rbTransactionType"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+
+	        <RadioButton
+	            android:id="@+id/rbTransactionExpense"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+                android:checked="true"
+                android:onClick="onRadioButtonClick"
+	            android:text="Expense" />
+
+            <RadioButton
+                android:id="@+id/rbTransactionIncome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClick"
+                android:text="Income" />
+
+	     </RadioGroup>
+
+	      <TextView
+	       	android:id="@+id/lblTransactionInfo"
+	       	android:layout_width="wrap_content"
+	       	android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dp"
+	        android:visibility="invisible"
+	        android:text="INCOME" />
+	    
+	    <TextView
+	        android:id="@+id/lblTransactionSeparator1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginTop="10dp"
+	        android:textColor="#4682b4"
+	        android:text="CATEGORY" />
+	      
+	      	<Spinner
+	          android:id="@+id/cboTransactionCategory"
+	          android:layout_width="match_parent"
+	          android:layout_height="wrap_content" />
+	    
+	      <TextView
+	        android:id="@+id/lblTransactionSeparator2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginTop="10dp"
+	        android:textColor="#4682b4"
+	        android:text="FROM ACCOUNT" />
+	      	   
+	        <Spinner
+	          android:id="@+id/cboTransactionAcount"
+	          android:layout_width="match_parent"
+	          android:layout_height="wrap_content" />
+	        
+        <TextView
+            android:id="@+id/lblTransactionSeparator3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:textColor="#4682b4"
+            android:text="DATE AND ADDITIONAL INFO" />
+
+
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:id="@+id/btnTransactionDate"
+                style="?android:attr/spinnerStyle"
+                android:layout_gravity="left"/>
+
+        <EditText
+		        android:id="@+id/txtTransactionNotes"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:ems="10"
+		        android:hint="Notes" />
+	
+	   <TextView
+	       android:id="@+id/lblTransactionCategoryId"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+           android:height="0dp"
+           android:visibility="invisible"
+           android:text="CategoryId" />
+	
+	   <TextView
+	       android:id="@+id/lblTransactionAccountId"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+           android:height="0dp"
+           android:visibility="invisible"
+           android:text="AccountId" />
+
+
+        <TextView
+            android:id="@+id/lblTransactionFromAccountBalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="0dp"
+            android:visibility="invisible"
+            android:text="FromAccountBalance" />
+
+        <TextView
+            android:id="@+id/lblTransactionAccountBalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="0dp"
+            android:visibility="invisible"
+            android:text="AccountBalance" />
+
+
+        <TextView
+            android:id="@+id/lblTransactionPaymentAccountBalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="0dp"
+            android:visibility="invisible"
+            android:text="PaymentBalance" />
+
+        <TextView
+            android:id="@+id/lblTransactionCurrentAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:height="0dp"
+            android:visibility="invisible"
+            android:text="CurrentAmount" />
+
+    </LinearLayout>
+
+</ScrollView> 

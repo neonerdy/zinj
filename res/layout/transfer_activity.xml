@@ -1,0 +1,99 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical" >
+	
+	    <EditText
+	        android:id="@+id/txtTransferAmount"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:hint="Amount" />
+	    
+	 
+	     	<TextView
+	            android:id="@+id/lblTransferSeparator1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginTop="10dp"
+	            android:text="FROM ACCOUNT"
+	            android:textColor="#4682b4" />
+	
+	     	<TextView
+	     	    android:id="@+id/lblTransferFrom"
+	     	    android:layout_marginLeft="10dp"
+	     	    android:layout_width="wrap_content"
+	     	    android:layout_height="wrap_content"
+	     	    android:textSize="15dp"
+	     	    android:text="" />
+	      
+	        <TextView
+	            android:id="@+id/lblTransferSeparator2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginTop="10dp"
+	            android:text="TO ACCOUNT"
+	            android:textColor="#4682b4" />
+	              
+	      	<Spinner
+	          android:id="@+id/cboTransferToAccount"
+	          android:layout_width="match_parent"
+	          android:layout_height="wrap_content"
+	          android:prompt="@string/select_group" />
+
+            <TextView
+	            android:id="@+id/lblTransferSeparator2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginTop="10dp"
+	            android:text="DATE AND ADDITIONAL INFO"
+	            android:textColor="#4682b4" />
+
+           <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:id="@+id/btnTransferDate"
+                style="?android:attr/spinnerStyle"
+                android:layout_gravity="left"/>
+
+           <EditText
+		          android:id="@+id/txtTransferNotes"
+		          android:layout_width="match_parent"
+		          android:layout_height="wrap_content"
+		          android:ems="10"
+		          android:hint="Notes" />
+	
+		   <TextView
+		          android:id="@+id/lblTransferFromAccountId"
+		          android:layout_width="wrap_content"
+		          android:layout_height="wrap_content"
+                  android:height="0dp"
+                  android:visibility="invisible"
+		          android:text="FromAccountId" />
+
+            <TextView
+                android:id="@+id/lblTransferFromAccountBalance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="0dp"
+                android:visibility="invisible"
+                android:text="FromAccountBalance" />
+
+
+        <TextView
+		          android:id="@+id/lblTransferToAccountId"
+		          android:layout_width="wrap_content"
+		          android:layout_height="wrap_content"
+                  android:height="0dp"
+                  android:visibility="invisible"
+		          android:text="ToAccountId" />
+	      
+	</LinearLayout>
+	</ScrollView>

@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/menuitem_done"
+          android:icon="@drawable/search"
+          android:title="Search"
+          android:showAsAction="ifRoom">
+    </item>
+
+</menu>

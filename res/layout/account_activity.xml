@@ -1,0 +1,141 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical" >
+	
+	    <EditText
+	        android:id="@+id/txtAccountName"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:hint="Account Name" >
+	    </EditText>
+
+	    <RadioGroup
+	        android:id="@+id/rbAccountType"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal" >
+	
+	        <RadioButton
+	            android:id="@+id/rbCash"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:checked="true"
+                android:onClick="onRadioButtonClick"
+	            android:text="Cash" />
+	
+	        <RadioButton
+	            android:id="@+id/rbBank"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClick"
+	            android:text="Savings" />
+	
+	        <RadioButton
+	            android:id="@+id/rbCC"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+                android:onClick="onRadioButtonClick"
+	            android:text="Credit Card" />
+	    </RadioGroup>
+
+	    
+       <TextView
+            android:id="@+id/lblSeparatorBalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#4682b4"
+            android:text="ACCOUNT BALANCE" />
+
+        <EditText
+            android:id="@+id/txtAccountBalance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="Balance" />
+
+        <TextView
+            android:id="@+id/lblSeparatorAdditionalInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#4682b4"
+            android:text="ADDITIONAL INFO" />
+
+        <EditText
+            android:id="@+id/txtAccountNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Notes" />
+
+        <EditText
+                android:id="@+id/txtAccountLimit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:visibility="invisible"
+                android:inputType="numberDecimal"
+                android:hint="Limit" />
+
+        <CheckBox
+                android:id="@+id/chkIsActive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Is Active" />
+
+        <TextView
+            android:id="@+id/lblSeparatorFinancialGoal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#4682b4"
+            android:text="FINANCIAL GOAL" />
+
+        <TextView
+            android:id="@+id/lblFinancialGoalCaption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Set account for specific goal eg : emergency fund, investment,business profit, etc" />
+
+
+        <EditText
+            android:id="@+id/txtFinancialGoalName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Name" />
+
+        <EditText
+            android:id="@+id/txtFinancialGoalTarget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="Target" />
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

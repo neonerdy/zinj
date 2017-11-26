@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+     <item
+        android:id="@+id/menuitem_chart_cashflow"
+        android:showAsAction="never"
+        android:title="Cash Flow"/>
+    
+	  <item
+        android:id="@+id/menuitem_chart_income"
+        android:showAsAction="never"
+        android:title="Income"/>
+	   	    
+	 <item
+        android:id="@+id/menuitem_chart_expense"
+        android:showAsAction="never"
+        android:title="Expense"/>
+
+    <item
+        android:id="@+id/menuitem_chart_debt_payment"
+        android:showAsAction="never"
+        android:title="Debt Payment"/>
+
+    <item
+        android:id="@+id/menuitem_chart_budget"
+        android:showAsAction="never"
+        android:title="Budget"/>
+
+    <item
+        android:id="@+id/menuitem_chart_cashsavings"
+        android:showAsAction="never"
+        android:title="Cash \u0026 Savings"/>
+
+
+    <item
+        android:id="@+id/menuitem_chart_creditcard"
+        android:showAsAction="never"
+        android:title="Credit Card"/>
+
+    <item
+        android:id="@+id/menuitem_chart_financialgoal"
+        android:showAsAction="never"
+        android:title="Financial Goal"/>
+
+
+
+
+
+</menu>

@@ -1,0 +1,117 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical" >
+	
+	    	<TextView
+	            android:id="@+id/lblSettingEmail"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginTop="10dp"
+	            android:text="E-MAIL FOR BACKUP"
+	            android:textColor="#4682b4" />
+	    	
+	 	   <EditText
+		        android:id="@+id/txtSettingEmail"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:ems="10"
+		        android:hint="E-Mail" />
+
+
+	 	   <TextView
+	            android:id="@+id/lblSettingPassword"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginTop="10dp"
+	            android:text="PASSWORD PROTECTION"
+	            android:textColor="#4682b4" />
+
+
+
+        <EditText
+		        android:id="@+id/txtSettingPassword"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:ems="10"
+		        android:inputType="textPassword|number" 
+		        android:password="true"
+		        android:maxLength="4"
+		        android:hint="Enter 4 digits" />
+
+        <CheckBox
+                android:id="@+id/chkSettingIsProtected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show Login Screen" />
+
+
+        <TextView
+	            android:id="@+id/lblSettingActiveMonth"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginTop="10dp"
+	            android:text="ACTIVE MONTH"
+	            android:textColor="#4682b4" />
+         <Spinner
+                android:id="@+id/cboSettingMonth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        <EditText
+                android:id="@+id/txtSettingYear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                />
+
+        <TextView
+                android:id="@+id/lblSettingDefaultChart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="DEFAULT CHART"
+                android:textColor="#4682b4" />
+
+        <Spinner
+                android:id="@+id/cboSettingDefaultChart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        <TextView
+                android:id="@+id/lblSettingCurrency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="CURRENCY"
+                android:textColor="#4682b4" />
+
+        <EditText
+		        android:id="@+id/txtSettingCurrency"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:ems="10"
+		       />
+		      
+	 	    <CheckBox
+		          android:id="@+id/chkSettingHideSymbol"
+		          android:layout_width="wrap_content"
+		          android:layout_height="wrap_content"
+		          android:text="Hide Symbol" />
+
+
+
+
+	</LinearLayout>
+	
+</ScrollView>

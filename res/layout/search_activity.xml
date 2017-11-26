@@ -1,0 +1,77 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:orientation="vertical" >
+
+
+
+
+        <EditText
+                android:id="@+id/txtSearchDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Transaction" />
+        <EditText
+                android:id="@+id/txtSearchNotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Notes" />
+
+        <EditText
+                android:id="@+id/txtSearchAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:hint="Amount" />
+
+        <CheckBox
+                android:id="@+id/chkSearchType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4682b4"
+                android:onClick="onTypeChecked"
+                android:text="TYPE" />
+
+        <Spinner
+                android:id="@+id/cboSearchType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               />
+
+        <CheckBox
+                android:id="@+id/chkSearchDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4682b4"
+                android:onClick="onDateChecked"
+                android:text="DATE" />
+
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="6/8/2013"
+                android:id="@+id/btnSearchFromDate"
+                style="?android:attr/spinnerStyle"
+                android:layout_gravity="left"/>
+
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="7/8/2013"
+                android:id="@+id/btnSearchToDate"
+                style="?android:attr/spinnerStyle"
+                android:layout_gravity="left"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

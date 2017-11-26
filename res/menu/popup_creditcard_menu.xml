@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   <item android:id="@+id/menuitem_total_balance"
+   		android:title="Total Balance"
+        android:showAsAction="ifRoom">
+    </item>
+
+    <item android:id="@+id/menuitem_total_debt"
+          android:title="Total Unpaid"
+          android:showAsAction="ifRoom">
+    </item>
+
+</menu>

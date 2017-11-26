@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root"
+   >
+
+   <ListView 
+      android:id="@+id/lvwTransaction" 
+      android:orientation="vertical"
+      android:layout_width="fill_parent" 
+      android:layout_height="fill_parent"
+      android:layout_below="@id/root"
+      android:layout_above="@+id/listview_footer"
+       />
+
+
+    <LinearLayout
+            android:id="@+id/listview_footer"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true">
+
+
+        <Button
+                android:id="@+id/pnlIncome"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#6b8e23"
+                android:text="- $ 0"
+                android:textColor="#ffffff" />
+
+        <Button
+                android:id="@+id/pnlExpense"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#b22222"
+                android:text="+ $ 0"
+                android:textColor="#ffffff" />
+
+
+
+    </LinearLayout>
+    
+
+    
+</RelativeLayout>
