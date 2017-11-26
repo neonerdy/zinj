@@ -1,6 +1,7 @@
 
 # zinj
 
+Personal finance manager for Android
 
 ![Alt text](https://github.com/neonerdy/zinj/blob/master/screenshot/transactions.png "Transaction")
 ![Alt text](https://github.com/neonerdy/zinj/blob/master/screenshot/accounts.png "Account")
