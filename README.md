@@ -1,5 +1,8 @@
 # zinj
 
+
+![Alt text](https://github.com/neonerdy/zinj/blob/master/screenshot/transactions.png "Transaction")
+
 **Features :**
 
 - Help you track all expenses and incomes quickly
