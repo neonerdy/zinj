@@ -7,7 +7,7 @@ Personal finance manager for Android
 ![Alt text](https://github.com/neonerdy/zinj/blob/master/screenshot/accounts.png "Account")
 ![Alt text](https://github.com/neonerdy/zinj/blob/master/screenshot/categories.png "Category")
 
-**Features :**
+## Features :
 
 - Help you track all expenses and incomes quickly
 - Able to set the monthly budget optionally
@@ -23,13 +23,13 @@ Personal finance manager for Android
 - Show statistics (max, min, average)
 
 
-**Categories**
+## Categories
 
 - Editable expense and income categories
 - For each categories you can also set the monthly budget (expense), and monthly target (income)
 
 
-**Account**
+## Account
 
 - Support multiple account : Cash, Bank, and Credit Card
 - Show account information and current balance
@@ -40,12 +40,12 @@ Personal finance manager for Android
 - Credit Card Payment 
 - Set Financial Goal
 
-**Financial Goal**
+## Financial Goal
 
 - Set account for specific goal e.g: emergency fund, investment, business profit, vacation, wedding, and etc.
 
 
-**Chart**
+## Chart
 
 - Cash Flow
 - Income
@@ -58,7 +58,7 @@ Personal finance manager for Android
 - Financial Goal
 
 
-**Export**
+## Export
 
 - Easy to Backup and Restore Data 
 - Share to E-Mail, Notes, etc.
